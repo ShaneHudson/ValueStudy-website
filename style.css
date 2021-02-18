@@ -7,6 +7,15 @@ main {
   padding: 25px;
 }
 
+a {
+  color: #67364e;
+}
+
+a:hover,
+a:focus {
+  color: #bd5777;
+}
+
 h1 {
   text-align: center;
 }
