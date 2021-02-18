@@ -25,6 +25,5 @@ hr {
 }
 
 .app-store-badge {
-  display: block;
-  margin-left: auto;
+  text-align: center;
 }
