@@ -9,11 +9,12 @@ main {
 
 a {
   color: #67364e;
+  font-weight: bold;
 }
 
 a:hover,
 a:focus {
-  color: #bd5777;
+  color: #4e7711;
 }
 
 h1 {
@@ -35,4 +36,10 @@ hr {
 
 .app-store-badge {
   text-align: center;
+}
+
+.download-link {
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
 }
