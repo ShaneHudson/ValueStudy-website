@@ -26,6 +26,10 @@ hr {
   padding: 25px 0;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
 .app-icon {
   display: block;
   border-radius: 17.544%;
@@ -42,4 +46,34 @@ hr {
   font-size: 24px;
   font-weight: 600;
   font-style: italic;
+}
+
+.toolbox {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.toolbox li {
+  border: 1px solid #666;
+  border-left: 4px solid #333;
+  border-radius: 8px;
+  padding: 16px 24px;
+  margin-bottom: 24px;
+}
+
+.toolbox-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.toolbox img {
+  min-height: 20px;
+  min-width: 20px;
+  height: auto;
+  width: auto;
 }
