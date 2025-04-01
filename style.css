@@ -38,8 +38,14 @@ p:last-child {
   margin: 50px auto;
 }
 
-.app-store-badge {
-  text-align: center;
+.app-store-badge {  
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.app-store-badge img {
+  height: 40px;
 }
 
 .download-link {
